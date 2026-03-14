@@ -5,7 +5,7 @@ import re
 
 # ─── BASE PATH ───────────────────────────────────────────────────────────────
 # frammer-api/services/data_loader.py  →  up 2 levels  →  GCCCCCC/data/clients/
-DATA_DIR = Path(__file__).parent.parent.parent / "data" / "clients"
+DATA_DIR = Path(__file__).parent.parent / "data" / "clients"
 
 _MONTH_NUM = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
